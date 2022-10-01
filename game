@@ -1,0 +1,11 @@
+nouni=false
+local function lo(l)
+loadstring(game:HttpGet(l,true))()
+nouni=true
+end
+if game.PlaceId==9293740813 then
+lo("9293740813")
+end
+if nouni==false then
+lo("print('not support')")
+end
